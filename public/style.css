@@ -1,0 +1,118 @@
+.body {
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+  }
+  .card {
+    /* display: inline-block; */
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+    color: rgba(0,0,0, 0.87);
+    background: #fff;
+    padding: 0 ;
+  }
+  input,select{
+    margin-bottom: 10px;
+    padding: 4px 6px;
+  }
+  .calc-frame{
+    margin:auto;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .card-4{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  }
+  .teel-head{
+    color: #fff!important;
+    background-color: #0395d9!important;
+    font-size: 20px;
+    padding: 8px
+  }
+  .btn-teel{
+    color: #0395d9;
+    background-color: #fff;
+    border-color: #0395d9;
+  }
+  .btn-teel.active, .btn-teel.focus, .btn-teel:active, .btn-teel:focus, .btn-teel:hover, .open>.dropdown-toggle.btn-teel {
+    color: #fff;
+    background-color: #0395d9;
+    border-color: #0395d9;
+  }
+  .blue-head{
+    color: #fff!important;
+    background-color: #0395d9!important;
+    padding: 15px
+  }
+  .blue-tail{
+    color: #fff!important;
+    background-color: #0395d9!important;
+    padding: 15px
+  }
+  .form-check-label {
+    margin-bottom: 8px!important;
+  }
+  .more{
+    display: none;
+  }
+  .zo2-logo{
+    width:15%;134px;
+  }
+  .control-label{
+    font-weight: 600;
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 170px;
+    background-color: #EEF5FB;
+    color: #0000FF;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 85%;
+    margin-left: -60px;
+    transition: opacity 0.3s;
+    border-color: #9797FF;
+    border-style: solid;
+  
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 70%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #d1ecf1 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .calcs tr { line-height: 5px; }
+  .calcs td { font-size: 10px; }
+  .calcs th { font-size: 10px; }
+  
+  .right {
+    text-align: right;
+    margin-right: 1em;
+  }
+  
